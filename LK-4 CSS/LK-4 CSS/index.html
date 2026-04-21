@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas LK4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+       <div class="nav-container">
+
+        <h1 class="logo">Inas Hasna mufida</h1>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#proyek">Proyek</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Foto -->
+     <section class="hero">
+        <img src="inas-asset.jpeg" alt="Profile Image" width="200px">
+        <p>UI/UX Designer & Frontend Developer</p>
+
+     </section>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Tentang -->
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <article>
+                <p>
+                    Saya adalah mahasiswa yang fokus pada UI/UX Design dan Frontend Development. Saya terbiasa merancang
+                    antarmuka yang sederhana dan intuitif, lalu mengimplementasikannya menjadi website yang responsif
+                    dan mudah digunakan.
+                </p>
+            </article>
+        </section>
+
+        <!-- Skill -->
+        <section id="skill">
+            <h2>Keahlian</h2>
+            <article>
+                <h3>UI/UX</h3>
+                <ul>
+                    <li>Wireframing (Figma)</li>
+                    <li>prototyping</li>
+                    <li>User Flow</li>
+                    <li>UX research</li>
+                </ul>
+            </article>
+
+             <article>
+                <h3>Frontend Developer</h3>
+                <ul>
+                    <li>HTML (dasar)</li>
+                    <li>CSS (Flexbox dan grid)</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </article>
+
+             <article>
+                <h3>Tools</h3>
+                <ul>
+                    <li>Figma</li>
+                    <li>Visual Studio</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Canva</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Project -->
+        <section id="proyek">
+            <h2>Proyek</h2>
+
+            <article>
+                <h3>Rancangan Aplikasi AyumaCare</h3>
+                <p>
+                    Rancangan aplikasi berbasis android untuk pemantauan kesehatan ibu hamil dan anak.
+                </p>
+            </article>
+
+            <article>
+                <h3>Rancangan Web UNSU</h3>
+                <p>
+                    Membuat halaman Landing Page informasi mengenai pendaftaran mahasiswa baru kampus UNSU (Universitas Negeri SUkun)
+                </p>
+            </article>
+
+              <article>
+                <h3>Rancangan Aplikasi Binova</h3>
+                <p>
+                    Rancangan Aplikasi berbasi android untuk membantu masyarakat dalam menangani masalah sampah
+                </p>
+            </article>
+        </section>
+
+        <!-- Kontak -->
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <article>
+                <p>Email: inashasna@gmail.com</p>
+                <p>No HP: 082331843834</p>
+            </article>
+        </section>
+
+        <!-- Form -->
+        <section id="form">
+            <h2>Form Pendaftaran</h2>
+
+            <form action="#" method="post">
+
+                <!-- Nama -->
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required><br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <!-- Nomor HP -->
+                <label for="hp">Nomor HP:</label><br>
+                <input type="tel" id="hp" name="hp" pattern="^\+?[0-9\s\-]{10,15}$" required><br><br>
+
+                <!-- Kategori -->
+                <label for="kategori">Kategori:</label><br>
+                <select id="kategori" name="kategori" required>
+                    <option value="">-- Pilih --</option>
+                    <option value="web">Web Development</option>
+                    <option value="desain">Desain</option>
+                    <option value="konsultasi">Konsultasi</option>
+                </select><br><br>
+
+                <!-- Pesan -->
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Inas Hasna Mufida</p>
+    </footer>
+
+</body>
+
+</html>
